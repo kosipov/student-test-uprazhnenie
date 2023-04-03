@@ -28,6 +28,16 @@ class Student
         return $this->num;
     }
 
+    public function getFio(): string
+    {
+        return $this->fio;
+    }
+
+    public function getStatus(): int
+    {
+        return $this->status;
+    }
+
     public function isStudy(): bool
     {
         return $this->status === self::STUDY_STATUS;
