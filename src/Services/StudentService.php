@@ -1,6 +1,6 @@
 <?php
 
-namespace Kosipov\StudentTest\Service;
+namespace Kosipov\StudentTest\Services;
 
 use Exception;
 use Kosipov\StudentTest\Entities\Student;

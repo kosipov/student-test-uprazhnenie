@@ -2,7 +2,8 @@
     "name": "kosipov/student-test",
     "type": "project",
     "require": {
-        "phpunit/phpunit": "^9.6"
+        "phpunit/phpunit": "^9.6",
+      "ext-mysqli": "*"
     },
     "autoload": {
         "psr-4": {
